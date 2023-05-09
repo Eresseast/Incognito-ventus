@@ -90,6 +90,7 @@
                 scope: '/'
             }).then(() => {
                 let url = decodeURIComponent(window.location.hash.slice(1));
+                console.log(url);
                 let search;
                 switch (localStorage.getItem('incog||search')) {
                     case 'google':
